@@ -1,3 +1,62 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  margin: 0px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #000;
+}
+
+#chart {
+    margin: 8px auto 0px auto;
+    width: 1288px;
+    background-color: #fff;
+    border: 6px solid #ccc;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #001A57;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    fill: #001A57;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+.x.axis path {
+    display: none;
+}
+
+.title {
+    fill: #001A57;
+    font-family: Arial, sans-serif;
+    font-size: 38px;
+}
+
+.instruction {
+    fill: #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.label {
+    fill: #001A57;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.dashboard {
+    fill: #001A57;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+.dashboard-heading {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.dashboard-title {
+    font-size: 18px;
+    font-weight: bold;
+}
